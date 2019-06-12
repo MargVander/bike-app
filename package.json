@@ -1,0 +1,14 @@
+{
+  "name": "bike_app",
+  "private": true,
+    "dependencies": {},
+    "husky": {
+      "hooks": {
+        "pre-commit": "rubocop",
+        "pre-push": "rspec"
+      }
+    },
+    "devDependencies": {
+      "husky": "^1.3.1"
+    }
+  }
