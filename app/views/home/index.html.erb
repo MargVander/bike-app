@@ -1,0 +1,15 @@
+<h1>Quels sont les stations Velib les plus proches de THP ?</h1>
+<h2>(et combien reste-il de vélos ?)</h2>
+<img <source src="http://www.magicrpm.com/wp-content/uploads/2008/10/7c312934577fc186cadcef33daeba459.jpg">
+<table>
+  <tr>
+    <th>Nom de la station</th>
+    <th>Nombre de vélos disponible</th>
+  </tr>
+<% @closest_bikes_stations.each do |station| %><br>
+<tr>
+  <td><%= station["name"] %></td>
+  <td><%= station["free_bikes"] %></td>
+</tr>
+<% end %>
+</table>
