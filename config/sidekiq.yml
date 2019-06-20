@@ -1,0 +1,7 @@
+:schedule:
+  bike_number:
+    every: 5m
+    class: UpdateBikesNumberWorker
+  update_station:
+    every: 24h
+    class: UpdateBikesStationsWorker
