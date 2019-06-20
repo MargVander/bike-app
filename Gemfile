@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'dotenv-rails'
 gem 'httparty'
+gem 'sidekiq', '~> 5.2.2'
+gem 'sidekiq-scheduler', '~> 2.0'
+gem 'whenever'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
