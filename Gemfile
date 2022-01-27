@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'dotenv-rails'
 gem 'httparty'
-gem 'sidekiq', '~> 5.2.2'
+gem 'sidekiq', '~> 6.4.0'
 gem 'sidekiq-scheduler', '~> 2.0'
 gem 'whenever'
 
